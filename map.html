@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Alumni Map</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/map.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Alumni Association</a>
+            <ul class="nav-menu">
+                <li><a href="map.html">Interactive Map</a></li>
+                <li><a href="mentorship.html">Mentorship</a></li>
+                <li><a href="stories.html">Success Stories</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h1>Find Alumni Around the World</h1>
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alumni Association. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/map.js"></script>
+</body>
+
+</html>

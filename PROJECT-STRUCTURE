@@ -1,0 +1,28 @@
+alumni-association/
+│
+├── index.html                # Home page
+├── map.html                  # Interactive Alumni Map page
+├── mentorship.html           # Mentorship Program page
+├── stories.html              # Alumni Success Stories page
+├── yearbook.html             # Online Yearbook and Memory Wall page
+├── donations.html            # Donation and Fundraising Campaigns page
+├── skills.html               # Skill Exchange Platform page
+├── groups.html               # Interest-Based Groups page
+├── chat.html                 # Real-Time Chat and Forum page
+├── projects.html             # Crowdsourced Project Ideas page
+├── travel.html               # Alumni Travel Groups page
+├── css/                      # CSS folder
+│   ├── main.css              # Main stylesheet
+│   ├── map.css               # Map-specific styles
+│   ├── yearbook.css          # Yearbook-specific styles
+│   ├── donations.css         # Donations-specific styles
+│   ├── skills.css            # Skills-specific styles
+│   ├── groups.css            # Groups-specific styles
+│   ├── chat.css              # Chat-specific styles
+│   ├── projects.css          # Projects-specific styles
+│   ├── travel.css            # Travel-specific styles
+├── js/                       # JavaScript folder
+│   ├── main.js               # Main JavaScript file
+│   ├── map.js                # Map-specific JavaScript
+│   ├── chat.js               # Chat-specific JavaScript
+│   ├── projects.js           # Projects-specific JavaScript

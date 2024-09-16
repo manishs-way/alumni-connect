@@ -1,0 +1,66 @@
+/* Success Stories Page Styles */
+
+.stories-section {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.stories-section h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.stories-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.story-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+}
+
+.story-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.story-card h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    margin: 15px;
+    color: #002B5C;
+}
+
+.story-card p {
+    font-size: 16px;
+    margin: 0 15px 20px 15px;
+}
+
+.read-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #002B5C;
+    color: white;
+    margin: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background-color: #00509E;
+}

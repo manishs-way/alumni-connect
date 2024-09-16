@@ -1,0 +1,173 @@
+/* Interest-Based Groups Styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    background-color: #002B5C;
+    color: white;
+    padding: 15px 0;
+}
+
+.logo {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.groups-section {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.groups-section h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.groups-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.groups-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.group-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: calc(33% - 40px);
+    margin: 0 10px;
+}
+
+.group-card h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #002B5C;
+}
+
+.group-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.join-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #002B5C;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.join-btn:hover {
+    background-color: #00509E;
+}
+
+.create-group {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.create-group h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #002B5C;
+}
+
+.create-group form {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-group label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+}
+
+.create-group input[type="text"], .create-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.create-group button {
+    padding: 12px 20px;
+    background-color: #002B5C;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-group button:hover {
+    background-color: #00509E;
+}
+
+footer {
+    background-color: #002B5C;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}

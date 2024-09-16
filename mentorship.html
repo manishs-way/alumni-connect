@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorship Program</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Alumni Association</a>
+            <ul class="nav-menu">
+                <li><a href="map.html">Interactive Map</a></li>
+                <li><a href="mentorship.html">Mentorship</a></li>
+                <li><a href="stories.html">Success Stories</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mentorship Section -->
+    <section class="mentorship-section">
+        <div class="container">
+            <h1>Join Our Mentorship Program</h1>
+            <p>Whether you're a seasoned professional or just starting out, our mentorship program connects alumni to share knowledge, experience, and guidance.</p>
+
+            <div class="mentorship-forms">
+                <div class="mentor-form">
+                    <h2>Become a Mentor</h2>
+                    <form>
+                        <label for="mentor-name">Name</label>
+                        <input type="text" id="mentor-name" name="mentor-name" required>
+
+                        <label for="mentor-email">Email</label>
+                        <input type="email" id="mentor-email" name="mentor-email" required>
+
+                        <label for="mentor-field">Field of Expertise</label>
+                        <input type="text" id="mentor-field" name="mentor-field" required>
+
+                        <label for="mentor-experience">Years of Experience</label>
+                        <input type="number" id="mentor-experience" name="mentor-experience" required>
+
+                        <button type="submit">Sign Up as Mentor</button>
+                    </form>
+                </div>
+
+                <div class="mentee-form">
+                    <h2>Become a Mentee</h2>
+                    <form>
+                        <label for="mentee-name">Name</label>
+                        <input type="text" id="mentee-name" name="mentee-name" required>
+
+                        <label for="mentee-email">Email</label>
+                        <input type="email" id="mentee-email" name="mentee-email" required>
+
+                        <label for="mentee-goal">Career Goal</label>
+                        <input type="text" id="mentee-goal" name="mentee-goal" required>
+
+                        <label for="mentee-interests">Interests</label>
+                        <textarea id="mentee-interests" name="mentee-interests" required></textarea>
+
+                        <button type="submit">Sign Up as Mentee</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alumni Association. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

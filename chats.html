@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chat & Forum</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/chat.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Alumni Association</a>
+            <ul class="nav-menu">
+                <li><a href="map.html">Interactive Map</a></li>
+                <li><a href="mentorship.html">Mentorship</a></li>
+                <li><a href="stories.html">Success Stories</a></li>
+                <li><a href="yearbook.html">Yearbook & Memory Wall</a></li>
+                <li><a href="skills.html">Skill Exchange</a></li>
+                <li><a href="groups.html">Groups</a></li>
+                <li><a href="chat.html">Chat & Forum</a></li>
+                <li><a href="donations.html">Donations</a></li>
+                <li><a href="#events">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Chat Section -->
+    <section class="chat-section">
+        <div class="container">
+            <h1>Real-Time Chat & Forum</h1>
+            <p>Connect and discuss with fellow alumni in real-time or participate in ongoing forum discussions.</p>
+
+            <div class="chat-box">
+                <div class="messages">
+                    <div class="message">
+                        <span class="username">John:</span> Hey everyone! Looking forward to the next alumni meetup.
+                    </div>
+                    <div class="message">
+                        <span class="username">Jane:</span> Me too! It's been a while since we all got together.
+                    </div>
+                    <!-- More messages can be added here -->
+                </div>
+                <div class="message-input">
+                    <input type="text" placeholder="Type your message here..." id="chat-input">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+
+            <div class="forum-section">
+                <h2>Discussion Forums</h2>
+                <div class="forum-posts">
+                    <div class="forum-post">
+                        <h3>Topic: Alumni Mentorship Experiences</h3>
+                        <p>Share your experiences and insights on being a mentor or mentee.</p>
+                        <a href="#" class="forum-btn">Join Discussion</a>
+                    </div>
+                    <div class="forum-post">
+                        <h3>Topic: Career Advice</h3>
+                        <p>Get and give career advice to fellow alumni.</p>
+                        <a href="#" class="forum-btn">Join Discussion</a>
+                    </div>
+                    <!-- More forum posts can be added here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alumni Association. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/chat.js"></script>
+</body>
+
+</html>

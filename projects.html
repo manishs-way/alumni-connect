@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crowdsourced Project Ideas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/projects.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Alumni Association</a>
+            <ul class="nav-menu">
+                <li><a href="map.html">Interactive Map</a></li>
+                <li><a href="mentorship.html">Mentorship</a></li>
+                <li><a href="stories.html">Success Stories</a></li>
+                <li><a href="yearbook.html">Yearbook & Memory Wall</a></li>
+                <li><a href="skills.html">Skill Exchange</a></li>
+                <li><a href="groups.html">Groups</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="chat.html">Chat & Forum</a></li>
+                <li><a href="donations.html">Donations</a></li>
+                <li><a href="#events">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <h1>Crowdsourced Project Ideas</h1>
+            <p>Submit your ideas and vote on initiatives that could shape the future of our alumni association.</p>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h2>Alumni Mentorship Network Expansion</h2>
+                    <p>Expanding the mentorship program to include international mentors.</p>
+                    <div class="vote-section">
+                        <button class="vote-btn" onclick="vote(this)">Vote</button>
+                        <span class="vote-count">12 Votes</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2>Alumni Startup Fund</h2>
+                    <p>Create a fund to support startups founded by alumni.</p>
+                    <div class="vote-section">
+                        <button class="vote-btn" onclick="vote(this)">Vote</button>
+                        <span class="vote-count">8 Votes</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2>Global Alumni Meetups</h2>
+                    <p>Organize annual alumni meetups in major cities worldwide.</p>
+                    <div class="vote-section">
+                        <button class="vote-btn" onclick="vote(this)">Vote</button>
+                        <span class="vote-count">20 Votes</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="submit-idea">
+                <h2>Submit Your Idea</h2>
+                <form>
+                    <label for="idea-title">Project Title</label>
+                    <input type="text" id="idea-title" name="idea-title" required>
+
+                    <label for="idea-description">Project Description</label>
+                    <textarea id="idea-description" name="idea-description" required></textarea>
+
+                    <button type="submit">Submit Idea</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alumni Association. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/projects.js"></script>
+</body>
+
+</html>

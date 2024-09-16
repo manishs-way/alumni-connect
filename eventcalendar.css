@@ -1,0 +1,59 @@
+/* Event Calendar Page Styles */
+
+.events-section {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.events-section h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.events-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.event-calendar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.event-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.event-card h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #002B5C;
+}
+
+.event-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.rsvp-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #002B5C;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.rsvp-btn:hover {
+    background-color: #00509E;
+}

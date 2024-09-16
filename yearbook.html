@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Yearbook & Memory Wall</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/yearbook.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Alumni Association</a>
+            <ul class="nav-menu">
+                <li><a href="map.html">Interactive Map</a></li>
+                <li><a href="mentorship.html">Mentorship</a></li>
+                <li><a href="stories.html">Success Stories</a></li>
+                <li><a href="yearbook.html">Yearbook & Memory Wall</a></li>
+                <li><a href="#events">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Yearbook Section -->
+    <section class="yearbook-section">
+        <div class="container">
+            <h1>Online Yearbook</h1>
+            <p>Browse through the digital yearbooks of past years.</p>
+
+            <div class="yearbook-gallery">
+                <div class="yearbook-card">
+                    <img src="https://source.unsplash.com/random/403x303" alt="Yearbook 2010">
+                    <h2>Class of 2010</h2>
+                    <a href="#" class="view-yearbook-btn">View Yearbook</a>
+                </div>
+                <div class="yearbook-card">
+                    <img src="https://source.unsplash.com/random/404x304" alt="Yearbook 2015">
+                    <h2>Class of 2015</h2>
+                    <a href="#" class="view-yearbook-btn">View Yearbook</a>
+                </div>
+                <div class="yearbook-card">
+                    <img src="https://source.unsplash.com/random/405x305" alt="Yearbook 2020">
+                    <h2>Class of 2020</h2>
+                    <a href="#" class="view-yearbook-btn">View Yearbook</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Memory Wall Section -->
+    <section class="memory-wall-section">
+        <div class="container">
+            <h1>Memory Wall</h1>
+            <p>Share your memories, photos, and videos from your time at the institution.</p>
+
+            <div class="memory-wall">
+                <div class="memory-post">
+                    <img src="https://source.unsplash.com/random/406x306" alt="Memory Photo">
+                    <h2>Jane Doe</h2>
+                    <p>Remembering the amazing times during the annual sports festival.</p>
+                </div>
+                <div class="memory-post">
+                    <img src="https://source.unsplash.com/random/407x307" alt="Memory Photo">
+                    <h2>John Smith</h2>
+                    <p>Graduation day was one of the most unforgettable moments of my life.</p>
+                </div>
+                <div class="memory-post">
+                    <img src="https://source.unsplash.com/random/408x308" alt="Memory Photo">
+                    <h2>Emily Johnson</h2>
+                    <p>The late-night study sessions and group projects were so worth it!</p>
+                </div>
+            </div>
+
+            <div class="post-memory">
+                <h2>Post Your Memory</h2>
+                <form>
+                    <label for="memory-name">Name</label>
+                    <input type="text" id="memory-name" name="memory-name" required>
+
+                    <label for="memory-photo">Upload Photo</label>
+                    <input type="file" id="memory-photo" name="memory-photo">
+
+                    <label for="memory-text">Memory</label>
+                    <textarea id="memory-text" name="memory-text" required></textarea>
+
+                    <button type="submit">Post Memory</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alumni Association. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

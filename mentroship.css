@@ -1,0 +1,84 @@
+/* Mentorship Page Styles */
+
+.mentorship-section {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.mentorship-section h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.mentorship-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.mentorship-forms {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+/* Form Styles for Mentorship Page */
+
+.mentorship-forms .mentor-form,
+.mentorship-forms .mentee-form {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+.mentorship-forms h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #002B5C;
+}
+
+.mentorship-forms label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+}
+
+.mentorship-forms input[type="text"],
+.mentorship-forms input[type="email"],
+.mentorship-forms input[type="number"],
+.mentorship-forms textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.mentorship-forms textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.mentorship-forms button {
+    padding: 12px 20px;
+    background-color: #002B5C;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mentorship-forms button:hover {
+    background-color: #00509E;
+}
